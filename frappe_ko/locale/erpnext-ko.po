@@ -33372,12 +33372,12 @@ msgstr "개장 송장 생성 진행 중"
 #: erpnext/accounts/workspace/accounting/accounting.json
 #: erpnext/setup/workspace/home/home.json
 msgid "Opening Invoice Creation Tool"
-msgstr "개장 송장 생성 도구"
+msgstr "송장 생성 도구"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/opening_invoice_creation_tool_item/opening_invoice_creation_tool_item.json
 msgid "Opening Invoice Creation Tool Item"
-msgstr "개장 송장 생성 도구 항목"
+msgstr "송장 생성 도구 항목"
 
 #: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.py:100
 msgid "Opening Invoice Item"

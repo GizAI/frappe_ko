@@ -3,7 +3,7 @@ app_title = "Frappe Ko"
 app_publisher = "GizAI"
 app_description = "Frappe Korean"
 app_email = "kt.kim@giz.ai"
-app_license = "unlicense"
+app_license = "agpl-3.0"
 
 # Apps
 # ------------------
