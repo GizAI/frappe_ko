@@ -34109,7 +34109,7 @@ msgstr "프래피 프레임워크"
 #. Label of the frappe_hr_tab (Tab Break) field in DocType 'Raven Settings'
 #: raven/raven/doctype/raven_settings/raven_settings.json
 msgid "Frappe HR"
-msgstr "Frappe 인사관리"
+msgstr "WeBiz 인사관리"
 
 #: frappe/public/js/frappe/ui/theme_switcher.js:59
 msgid "Frappe Light"
@@ -40458,7 +40458,7 @@ msgstr "설치"
 #: frontend/src/components/InstallPrompt.vue:5
 #: frontend/src/components/InstallPrompt.vue:28
 msgid "Install Frappe HR"
-msgstr "Frappe HR 설치"
+msgstr "WeBiz HR 설치"
 
 #: frappe/public/js/frappe/ui/toolbar/search_utils.js:665
 #: frappe/public/js/frappe/ui/toolbar/search_utils.js:666
@@ -47611,11 +47611,11 @@ msgstr "로그인 세션이 만료되었습니다. 페이지를 새로 고쳐 �
 
 #: frontend/src/composables/frappecloud.js:23
 msgid "Login to Frappe Cloud?"
-msgstr "Frappe Cloud에 로그인하시겠습니까?"
+msgstr "WeBiz Cloud에 로그인하시겠습니까?"
 
 #: frontend/src/views/Login.vue:8
 msgid "Login to Frappe HR"
-msgstr "Frappe HR 로그인"
+msgstr "WeBiz HR 로그인"
 
 #: frappe/templates/includes/comments/comments.html:110
 msgid "Login to comment"

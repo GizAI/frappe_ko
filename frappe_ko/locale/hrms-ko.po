@@ -5914,7 +5914,7 @@ msgstr "부분 비용"
 
 #: frontend/src/components/BaseLayout.vue:9
 msgid "Frappe HR"
-msgstr "Frappe HR"
+msgstr "WeBiz HR"
 
 #. Label of the frequency (Select) field in DocType 'Shift Schedule'
 #. Label of the frequency (Select) field in DocType 'Vehicle Service'
@@ -7069,7 +7069,7 @@ msgstr "설치"
 #: frontend/src/components/InstallPrompt.vue:5
 #: frontend/src/components/InstallPrompt.vue:28
 msgid "Install Frappe HR"
-msgstr "Frappe HR 설치"
+msgstr "WeBiz HR 설치"
 
 #: hrms/hr/doctype/leave_application/leave_application.py:432
 msgid "Insufficient Balance"
@@ -8293,7 +8293,7 @@ msgstr "로그인 실패"
 
 #: frontend/src/views/Login.vue:8
 msgid "Login to Frappe HR"
-msgstr "Frappe HR 로그인"
+msgstr "WeBiz HR 로그인"
 
 #. Label of the longitude (Float) field in DocType 'Employee Checkin'
 #. Label of the longitude (Float) field in DocType 'Shift Location'
