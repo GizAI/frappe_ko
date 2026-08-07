@@ -211,13 +211,13 @@ msgstr "% 활용도 (B / T)"
 #. Description of the '% Amount Billed' (Percent) field in DocType 'Sales
 #. Order'
 #: erpnext/selling/doctype/sales_order/sales_order.json
-#, python-format
+#, no-python-format
 msgid "% of materials billed against this Sales Order"
 msgstr "% 이 판매 주문에 대해 청구된 자재 비율"
 
 #. Description of the '%  Delivered' (Percent) field in DocType 'Sales Order'
 #: erpnext/selling/doctype/sales_order/sales_order.json
-#, python-format
+#, no-python-format
 msgid "% of materials delivered against this Sales Order"
 msgstr "% 이 판매 주문에 대해 납품된 자재 비율"
 
@@ -1016,7 +1016,7 @@ msgstr "<span class=\"h2\">안녕하세요,</span>"
 #. Header text in the Helpdesk Workspace
 #: helpdesk/helpdesk/workspace/helpdesk/helpdesk.json
 msgid "<span class=\"h3\" style=\"\"><a href=\"/helpdesk\">Visit Helpdesk</a></span>"
-msgstr "<span class=\\"h3\\" style=\\"\\"><a href=\\"/helpdesk\\">헬프데스크 방문하기</a></span>"
+msgstr "<span class=\"h3\" style=\"\"><a href=\"/helpdesk\">헬프데스크 방문하기</a></span>"
 
 #. Header text in the Raven Workspace
 #: raven/raven/workspace/raven/raven.json
@@ -1031,7 +1031,7 @@ msgstr "<span class=\"h4\"><b>마스터 및 보고서</b></span>"
 #. Header text in the Performance Workspace
 #: hrms/hr/workspace/performance/performance.json
 msgid "<span class=\"h4\"><b>Masters &amp; Transactions</b></span>"
-msgstr "<span class=\\"h4\\"><b>마스터 및 거래</b></span>"
+msgstr "<span class=\"h4\"><b>마스터 및 거래</b></span>"
 
 #. Header text in the Selling Workspace
 #. Header text in the Stock Workspace
@@ -1087,7 +1087,7 @@ msgstr "<span class=\"h4\"><b>단축키</b></span>"
 #. Header text in the Salary Payout Workspace
 #: hrms/payroll/workspace/salary_payout/salary_payout.json
 msgid "<span class=\"h4\"><b>Transactions &amp; Reports</b></span>"
-msgstr "<span class=\\"h4\\"><b>거래 및 보고서</b></span>"
+msgstr "<span class=\"h4\"><b>거래 및 보고서</b></span>"
 
 #. Header text in the Assets Workspace
 #. Header text in the Buying Workspace
@@ -1111,17 +1111,17 @@ msgstr "<span class=\"h4\"><b>내 단축키</b></span>"
 #. Paragraph text in the Helpdesk Workspace
 #: helpdesk/helpdesk/workspace/helpdesk/helpdesk.json
 msgid "<span class=\"h4\">Helpdesk Configuration<br></span>"
-msgstr "<span class=\\"h4\\">헬프데스크 구성<br></span>"
+msgstr "<span class=\"h4\">헬프데스크 구성<br></span>"
 
 #. Header text in the Frappe CRM Workspace
 #: crm/fcrm/workspace/frappe_crm/frappe_crm.json
 msgid "<span class=\"h5\"><b>PORTAL</b></span>"
-msgstr "<span class=\\"h5\\"><b>포털</b></span>"
+msgstr "<span class=\"h5\"><b>포털</b></span>"
 
 #. Header text in the Shift & Attendance Workspace
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
 msgid "<span style=\"font-size: 18px;\"><b>Masters &amp; Reports</b></span>"
-msgstr "<span style=\\"font-size: 18px;\\"><b>마스터 및 보고서</b></span>"
+msgstr "<span style=\"font-size: 18px;\"><b>마스터 및 보고서</b></span>"
 
 #: erpnext/accounts/doctype/payment_request/payment_request.py:988
 msgid "<strong>Grand Total:</strong> {0}"
@@ -5424,7 +5424,7 @@ msgstr "이 문서의 모든 항목에는 이미 연결된 품질 검사가 있�
 #. Description of the 'Document States' (Table) field in DocType 'Workflow'
 #: frappe/workflow/doctype/workflow/workflow.json
 msgid "All possible Workflow States and roles of the workflow. Docstatus Options: 0 is \"Saved\", 1 is \"Submitted\" and 2 is \"Cancelled\""
-msgstr "모든 가능한 워크플로 상태 및 워크플로 역할. 문서 상태 옵션: 0은 "저장됨", 1은 "제출됨", 2는 "취소됨"입니다"
+msgstr "모든 가능한 워크플로 상태 및 워크플로 역할. 문서 상태 옵션: 0은 \"저장됨\", 1은 \"제출됨\", 2는 \"취소됨\"입니다"
 
 #. Description of the 'Carry Forward Communication and Comments' (Check) field
 #. in DocType 'CRM Settings'
@@ -6469,7 +6469,7 @@ msgstr "항상 BCC 주소"
 #. Label of the add_draft_heading (Check) field in DocType 'Print Settings'
 #: frappe/printing/doctype/print_settings/print_settings.json
 msgid "Always add \"Draft\" Heading for printing draft documents"
-msgstr "초안 문서 인쇄 시 항상 "초안" 제목 추가"
+msgstr "초안 문서 인쇄 시 항상 \"초안\" 제목 추가"
 
 #. Label of the always_use_account_email_id_as_sender (Check) field in DocType
 #. 'Email Account'
@@ -23800,7 +23800,7 @@ msgstr "기본: 10분"
 #. Description of the 'Heading' (Data) field in DocType 'Contact Us Settings'
 #: frappe/website/doctype/contact_us_settings/contact_us_settings.json
 msgid "Default: \"Contact Us\""
-msgstr "기본값: "문의하기""
+msgstr "기본값: \"문의하기\""
 
 #. Name of a DocType
 #: frappe/core/doctype/defaultvalue/defaultvalue.json
@@ -25120,7 +25120,7 @@ msgstr "항목별 다른 단위는 잘못된 (총) 순중량 값을 초래할 �
 #. Description of the 'States' (Section Break) field in DocType 'Workflow'
 #: frappe/workflow/doctype/workflow/workflow.json
 msgid "Different \"States\" this document can exist in. Like \"Open\", \"Pending Approval\" etc."
-msgstr "이 문서가 존재할 수 있는 다른 "상태"들. 예: "열림", "승인 대기" 등"
+msgstr "이 문서가 존재할 수 있는 다른 \"상태\"들. 예: \"열림\", \"승인 대기\" 등"
 
 #. Label of the prefix_digits (Int) field in DocType 'Document Naming Rule'
 #: frappe/core/doctype/document_naming_rule/document_naming_rule.json
@@ -29895,7 +29895,7 @@ msgstr "자산 폐기 날짜를 입력하세요"
 #. Description of the 'User Defaults' (Table) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "Enter default value fields (keys) and values. If you add multiple values for a field, the first one will be picked. These defaults are also used to set \"match\" permission rules. To see list of fields, go to \"Customize Form\"."
-msgstr "기본값 필드(키)와 값을 입력하세요. 필드에 여러 값을 추가하면 첫 번째 값이 선택됩니다. 이 기본값은 "일치" 권한 규칙 설정에도 사용됩니다. 필드 목록을 보려면 "양식 사용자 정의"로 이동하세요."
+msgstr "기본값 필드(키)와 값을 입력하세요. 필드에 여러 값을 추가하면 첫 번째 값이 선택됩니다. 이 기본값은 \"일치\" 권한 규칙 설정에도 사용됩니다. 필드 목록을 보려면 \"양식 사용자 정의\"로 이동하세요."
 
 #: erpnext/assets/doctype/asset/asset.py:413
 msgid "Enter depreciation details"
@@ -32263,11 +32263,11 @@ msgstr "필드 유형"
 
 #: frappe/core/doctype/doctype/doctype.py:417
 msgid "Field \"route\" is mandatory for Web Views"
-msgstr "웹 뷰에 필드 "route"는 필수입니다"
+msgstr "웹 뷰에 필드 \"route\"는 필수입니다"
 
 #: frappe/desk/doctype/bulk_update/bulk_update.js:17
 msgid "Field \"value\" is mandatory. Please specify value to be updated"
-msgstr "필드 "value"는 필수입니다. 업데이트할 값을 지정해 주세요"
+msgstr "필드 \"value\"는 필수입니다. 업데이트할 값을 지정해 주세요"
 
 #: helpdesk/helpdesk/doctype/hd_ticket_template/hd_ticket_template.py:24
 msgid "Field `{0}` does not exist in Ticket"
@@ -32398,7 +32398,7 @@ msgstr "as_list가 활성화된 경우 필드는 리스트 또는 튜플이어�
 #. Description of the 'Search Fields' (Data) field in DocType 'Customize Form'
 #: frappe/custom/doctype/customize_form/customize_form.json
 msgid "Fields separated by comma (,) will be included in the \"Search By\" list of Search dialog box"
-msgstr "쉼표(,)로 구분된 필드는 검색 대화 상자의 "검색 기준" 목록에 포함됩니다"
+msgstr "쉼표(,)로 구분된 필드는 검색 대화 상자의 \"검색 기준\" 목록에 포함됩니다"
 
 #. Description of the 'Do not update variants on save' (Check) field in DocType
 #. 'Item Variant Settings'
@@ -32485,15 +32485,15 @@ msgstr "파일 URL"
 
 #: frontend/src/components/FilesUploader/FilesUploaderArea.vue:333
 msgid "File \"{0}\" was skipped because of invalid file type"
-msgstr "파일 \\"{0}\\"은(는) 잘못된 파일 형식으로 인해 건너뛰어졌습니다"
+msgstr "파일 \"{0}\"은(는) 잘못된 파일 형식으로 인해 건너뛰어졌습니다"
 
 #: frontend/src/components/FilesUploader/FilesUploaderArea.vue:354
 msgid "File \"{0}\" was skipped because only {1} uploads are allowed"
-msgstr "파일 \\"{0}\\"은(는) {1}개 업로드만 허용되어 건너뛰어졌습니다"
+msgstr "파일 \"{0}\"은(는) {1}개 업로드만 허용되어 건너뛰어졌습니다"
 
 #: frontend/src/components/FilesUploader/FilesUploaderArea.vue:359
 msgid "File \"{0}\" was skipped because only {1} uploads are allowed for DocType \"{2}\""
-msgstr "파일 \\"{0}\\"은(는) 문서 유형 \\"{2}\\"에 대해 {1}개 업로드만 허용되어 건너뛰어졌습니다"
+msgstr "파일 \"{0}\"은(는) 문서 유형 \"{2}\"에 대해 {1}개 업로드만 허용되어 건너뛰어졌습니다"
 
 #: frappe/desk/page/backups/backups.py:107
 msgid "File backup is ready"
@@ -33730,7 +33730,7 @@ msgstr "작업 지시용"
 #. Description of the 'Fraction of Daily Salary per Leave' (Float) field in
 #. DocType 'Leave Type'
 #: hrms/hr/doctype/leave_type/leave_type.json
-#, python-format
+#, no-python-format
 msgid "For a day of leave taken, if you still pay (say) 50% of the daily salary, then enter 0.50 in this field."
 msgstr "하루 휴가를 사용했을 때 일일 급여의 (예: 50%)를 지급한다면, 이 필드에 0.50을 입력하세요."
 
@@ -38574,7 +38574,7 @@ msgstr "선택한 BOM에 작업이 명시된 경우, 시스템은 BOM에서 모�
 #. Description of the 'User Type' (Link) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "If the user has any role checked, then the user becomes a \"System User\". \"System User\" has access to the desktop"
-msgstr "사용자가 역할을 하나라도 선택하면, 사용자는 "시스템 사용자"가 됩니다. "시스템 사용자"는 데스크톱에 접근할 수 있습니다"
+msgstr "사용자가 역할을 하나라도 선택하면, 사용자는 \"시스템 사용자\"가 됩니다. \"시스템 사용자\"는 데스크톱에 접근할 수 있습니다"
 
 #. Description of the 'Catch All' (Link) field in DocType 'Communication
 #. Medium'
@@ -38680,15 +38680,15 @@ msgstr "이 품목의 재고를 유지하는 경우, ERPNext는 이 품목의 �
 
 #: frappe/core/doctype/data_export/exporter.py:204
 msgid "If you are updating, please select \"Overwrite\" else existing rows will not be deleted."
-msgstr "업데이트하는 경우 "덮어쓰기"를 선택하세요. 그렇지 않으면 기존 행이 삭제되지 않습니다."
+msgstr "업데이트하는 경우 \"덮어쓰기\"를 선택하세요. 그렇지 않으면 기존 행이 삭제되지 않습니다."
 
 #: frappe/core/doctype/data_export/exporter.py:188
 msgid "If you are uploading new records, \"Naming Series\" becomes mandatory, if present."
-msgstr "새 레코드를 업로드하는 경우, "명명 시리즈"가 있으면 필수입니다."
+msgstr "새 레코드를 업로드하는 경우, \"명명 시리즈\"가 있으면 필수입니다."
 
 #: frappe/core/doctype/data_export/exporter.py:186
 msgid "If you are uploading new records, leave the \"name\" (ID) column blank."
-msgstr "새 레코드를 업로드하는 경우 "이름"(ID) 열을 비워 두세요."
+msgstr "새 레코드를 업로드하는 경우 \"이름\"(ID) 열을 비워 두세요."
 
 #: hrms/patches/v15_0/notify_about_loan_app_separation.py:17
 msgid "If you are using loans in salary slips, please install the {0} app from Frappe Cloud Marketplace or GitHub to continue using loan integration with payroll."
@@ -39510,7 +39510,7 @@ msgstr "포인트 단위. 기본값은 9입니다."
 
 #: erpnext/crm/doctype/appointment_booking_settings/appointment_booking_settings.js:8
 msgid "In row {0} of Appointment Booking Slots: \"To Time\" must be later than \"From Time\"."
-msgstr "예약 슬롯의 {0}행에서: "종료 시간"은 "시작 시간"보다 늦어야 합니다."
+msgstr "예약 슬롯의 {0}행에서: \"종료 시간\"은 \"시작 시간\"보다 늦어야 합니다."
 
 #. Description of the 'Allow Login After Fail' (Int) field in DocType 'System
 #. Settings'
@@ -41439,15 +41439,15 @@ msgstr "잘못된 웹훅 비밀키"
 #: frappe/public/js/frappe/form/layout.js:811
 #: frappe/public/js/frappe/views/reports/report_view.js:716
 msgid "Invalid \"depends_on\" expression"
-msgstr "잘못된 "depends_on" 표현식"
+msgstr "잘못된 \"depends_on\" 표현식"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:513
 msgid "Invalid \"depends_on\" expression set in filter {0}"
-msgstr "필터 {0}에 설정된 잘못된 "depends_on" 표현식"
+msgstr "필터 {0}에 설정된 잘못된 \"depends_on\" 표현식"
 
 #: frappe/public/js/frappe/form/save.js:159
 msgid "Invalid \"mandatory_depends_on\" expression"
-msgstr "잘못된 "mandatory_depends_on" 표현식"
+msgstr "잘못된 \"mandatory_depends_on\" 표현식"
 
 #: frappe/desk/reportview.py:186
 msgid "Invalid aggregate function"
@@ -42948,7 +42948,7 @@ msgstr "이 파일을 삭제하는 것은 위험합니다: {0}. 시스템 관리
 #. Settings'
 #: crm/fcrm/doctype/fcrm_settings/fcrm_settings.json
 msgid "It will make deal's \"Expected Closure Date\" mandatory to get accurate forecasting insights"
-msgstr "정확한 예측 인사이트를 위해 거래의 \\"예상 종료일\\"을 필수로 만듭니다"
+msgstr "정확한 예측 인사이트를 위해 거래의 \"예상 종료일\"을 필수로 만듭니다"
 
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py:156
 msgid "It's not possible to distribute charges equally when total amount is zero, please set 'Distribute Charges Based On' as 'Quantity'"
@@ -48364,7 +48364,7 @@ msgstr "이체 입력 생성"
 #. Label of the show_name_in_global_search (Check) field in DocType 'DocType'
 #: frappe/core/doctype/doctype/doctype.json
 msgid "Make \"name\" searchable in Global Search"
-msgstr "글로벌 검색에서 "name"을 검색 가능하게 만들기"
+msgstr "글로벌 검색에서 \"name\"을 검색 가능하게 만들기"
 
 #: frontend/src/components/Activities/Activities.vue:798
 #: frontend/src/components/Activities/ActivityHeader.vue:142
@@ -53289,7 +53289,7 @@ msgstr "아직 피드백을 받지 못했습니다"
 
 #: frappe/public/js/frappe/views/kanban/kanban_view.js:370
 msgid "No fields found that can be used as a Kanban Column. Use the Customize Form to add a Custom Field of type \"Select\"."
-msgstr "칸반 열로 사용할 수 있는 필드를 찾을 수 없습니다. 사용자 정의 양식에서 "선택" 유형의 사용자 정의 필드를 추가하십시오."
+msgstr "칸반 열로 사용할 수 있는 필드를 찾을 수 없습니다. 사용자 정의 양식에서 \"선택\" 유형의 사용자 정의 필드를 추가하십시오."
 
 #: frappe/utils/file_manager.py:143
 msgid "No file attached"
@@ -60793,7 +60793,7 @@ msgstr "대시보드 차트에 설정된 필터 값을 확인해 주세요: {}"
 
 #: frappe/model/base_document.py:951
 msgid "Please check the value of \"Fetch From\" set for field {0}"
-msgstr "필드 {0}에 설정된 "가져오기 위치" 값을 확인해 주세요"
+msgstr "필드 {0}에 설정된 \"가져오기 위치\" 값을 확인해 주세요"
 
 #: erpnext/erpnext_integrations/doctype/plaid_settings/plaid_connector.py:65
 msgid "Please check your Plaid client ID and secret values"
@@ -64556,7 +64556,7 @@ msgid "Progress"
 msgstr "진행 상황"
 
 #: erpnext/projects/doctype/task/task.py:148
-#, python-format
+#, no-python-format
 msgid "Progress % for a task cannot be more than 100."
 msgstr "작업의 진행률 %는 100을 초과할 수 없습니다."
 
@@ -78045,7 +78045,7 @@ msgstr "창고 설정"
 #. 'Gratuity Rule'
 #: hrms/payroll/doctype/gratuity_rule/gratuity_rule.json
 msgid "Set \"From(Year)\" and \"To(Year)\" to 0 for no upper and lower limit."
-msgstr "상한 및 하한이 없도록 \\"From(Year)\\" 및 \\"To(Year)\\"를 0으로 설정하세요."
+msgstr "상한 및 하한이 없도록 \"From(Year)\" 및 \"To(Year)\"를 0으로 설정하세요."
 
 #: frontend/src/components/FilesUploader/FilesUploader.vue:69
 msgid "Set all as private"
@@ -79593,7 +79593,7 @@ msgstr "사이드바 표시"
 #. Description of the 'Title Prefix' (Data) field in DocType 'Website Settings'
 #: frappe/website/doctype/website_settings/website_settings.json
 msgid "Show title in browser window as \"Prefix - title\""
-msgstr "브라우저 창 제목을 "접두사 - 제목"으로 표시"
+msgstr "브라우저 창 제목을 \"접두사 - 제목\"으로 표시"
 
 #: erpnext/accounts/report/trial_balance/trial_balance.js:99
 msgid "Show unclosed fiscal year's P&L balances"
@@ -79763,13 +79763,13 @@ msgstr "간단함"
 #. Rule'
 #: frappe/automation/doctype/assignment_rule/assignment_rule.json
 msgid "Simple Python Expression, Example: Status in (\"Closed\", \"Cancelled\")"
-msgstr "간단한 파이썬 표현식, 예: Status in ("Closed", "Cancelled")"
+msgstr "간단한 파이썬 표현식, 예: Status in (\"Closed\", \"Cancelled\")"
 
 #. Description of the 'Close Condition' (Code) field in DocType 'Assignment
 #. Rule'
 #: frappe/automation/doctype/assignment_rule/assignment_rule.json
 msgid "Simple Python Expression, Example: Status in (\"Invalid\")"
-msgstr "간단한 파이썬 표현식, 예: Status in ("Invalid")"
+msgstr "간단한 파이썬 표현식, 예: Status in (\"Invalid\")"
 
 #. Description of the 'Condition' (Code) field in DocType 'Service Level
 #. Agreement'
@@ -80774,12 +80774,12 @@ msgstr "표준 역할은 이름을 변경할 수 없습니다"
 #. Description of a DocType
 #: erpnext/accounts/doctype/purchase_taxes_and_charges_template/purchase_taxes_and_charges_template.json
 msgid "Standard tax template that can be applied to all Purchase Transactions. This template can contain a list of tax heads and also other expense heads like \"Shipping\", \"Insurance\", \"Handling\", etc."
-msgstr "모든 구매 거래에 적용할 수 있는 표준 세금 템플릿. 이 템플릿에는 세금 항목 목록과 "배송", "보험", "취급" 등의 기타 비용 항목이 포함될 수 있습니다."
+msgstr "모든 구매 거래에 적용할 수 있는 표준 세금 템플릿. 이 템플릿에는 세금 항목 목록과 \"배송\", \"보험\", \"취급\" 등의 기타 비용 항목이 포함될 수 있습니다."
 
 #. Description of a DocType
 #: erpnext/accounts/doctype/sales_taxes_and_charges_template/sales_taxes_and_charges_template.json
 msgid "Standard tax template that can be applied to all Sales Transactions. This template can contain a list of tax heads and also other expense/income heads like \"Shipping\", \"Insurance\", \"Handling\" etc."
-msgstr "모든 판매 거래에 적용할 수 있는 표준 세금 템플릿. 이 템플릿에는 세금 항목 목록과 "배송", "보험", "취급" 등의 기타 비용/수입 항목이 포함될 수 있습니다."
+msgstr "모든 판매 거래에 적용할 수 있는 표준 세금 템플릿. 이 템플릿에는 세금 항목 목록과 \"배송\", \"보험\", \"취급\" 등의 기타 비용/수입 항목이 포함될 수 있습니다."
 
 #: frappe/core/doctype/user_type/user_type.py:61
 msgid "Standard user type {0} can not be deleted."
@@ -82115,7 +82115,7 @@ msgstr "하청"
 #. Description of the 'Fraction' (Data) field in DocType 'Currency'
 #: frappe/geo/doctype/currency/currency.json
 msgid "Sub-currency. For e.g. \"Cent\""
-msgstr "하위 통화. 예: "센트""
+msgstr "하위 통화. 예: \"센트\""
 
 #. Description of the 'Subdomain' (Small Text) field in DocType 'Website
 #. Settings'
@@ -84386,7 +84386,7 @@ msgstr "세금 범주"
 
 #: erpnext/controllers/buying_controller.py:204
 msgid "Tax Category has been changed to \"Total\" because all the Items are non-stock items"
-msgstr "모든 품목이 비재고 품목이므로 세금 범주가 "총계"로 변경되었습니다"
+msgstr "모든 품목이 비재고 품목이므로 세금 범주가 \"총계\"로 변경되었습니다"
 
 #. Label of the tax_deducted_till_date (Currency) field in DocType 'Salary
 #. Structure Assignment'
@@ -86850,7 +86850,7 @@ msgstr "이 값은 보고서 보기에서 렌더링할 수 있는 최대 행 수
 #. Value'
 #: erpnext/stock/doctype/item_attribute_value/item_attribute_value.json
 msgid "This will be appended to the Item Code of the variant. For example, if your abbreviation is \"SM\", and the item code is \"T-SHIRT\", the item code of the variant will be \"T-SHIRT-SM\""
-msgstr "이것은 변형 항목 코드에 추가됩니다. 예를 들어, 약어가 "SM"이고 항목 코드가 "T-SHIRT"인 경우 변형 항목 코드는 "T-SHIRT-SM"이 됩니다."
+msgstr "이것은 변형 항목 코드에 추가됩니다. 예를 들어, 약어가 \"SM\"이고 항목 코드가 \"T-SHIRT\"인 경우 변형 항목 코드는 \"T-SHIRT-SM\"이 됩니다."
 
 #: frappe/website/doctype/web_page/web_page.js:85
 msgid "This will be automatically generated when you publish the page, you can also enter a route yourself if you wish"
@@ -87721,11 +87721,11 @@ msgstr "더 많은 보고서를 허용하려면 시스템 설정에서 제한을
 
 #: erpnext/controllers/status_updater.py:379
 msgid "To allow over billing, update \"Over Billing Allowance\" in Accounts Settings or the Item."
-msgstr "과청구를 허용하려면 계정 설정 또는 품목에서 "Over Billing Allowance"를 업데이트하세요."
+msgstr "과청구를 허용하려면 계정 설정 또는 품목에서 \"Over Billing Allowance\"를 업데이트하세요."
 
 #: erpnext/controllers/status_updater.py:375
 msgid "To allow over receipt / delivery, update \"Over Receipt/Delivery Allowance\" in Stock Settings or the Item."
-msgstr "과수령/과배송을 허용하려면 재고 설정 또는 품목에서 "Over Receipt/Delivery Allowance"를 업데이트하세요."
+msgstr "과수령/과배송을 허용하려면 재고 설정 또는 품목에서 \"Over Receipt/Delivery Allowance\"를 업데이트하세요."
 
 #: hrms/hr/doctype/shift_assignment/shift_assignment.py:104
 msgid "To allow this, enable {0} under {1}."
@@ -91767,7 +91767,7 @@ msgstr "긴급"
 #. Description of the 'Value to Validate' (Data) field in DocType 'Onboarding
 #. Step'
 #: frappe/desk/doctype/onboarding_step/onboarding_step.json
-#, python-format
+#, no-python-format
 msgid "Use % for any non empty value."
 msgstr "비어 있지 않은 값에 대해 % 사용"
 
@@ -97409,7 +97409,7 @@ msgstr "예: \"여름 휴가 2019 할인 20\""
 #. Account'
 #: frappe/email/doctype/email_account/email_account.json
 msgid "e.g. \"Support\", \"Sales\", \"Jerry Yang\""
-msgstr "예: "지원", "영업", "제리 양""
+msgstr "예: \"지원\", \"영업\", \"제리 양\""
 
 #. Description of the 'Incoming Server' (Data) field in DocType 'Email Account'
 #. Description of the 'Incoming Server' (Data) field in DocType 'Email Domain'
@@ -99926,7 +99926,7 @@ msgid "{0}% Delivered"
 msgstr "{0}% 배송됨"
 
 #: erpnext/accounts/doctype/payment_term/payment_term.js:15
-#, python-format
+#, no-python-format
 msgid "{0}% of total invoice value will be given as discount."
 msgstr "총 송장 금액의 {0}%가 할인으로 제공됩니다."
 
@@ -100314,4 +100314,3 @@ msgstr "⚠️ 상위 필드: {0}에 대한 데이터가 없습니다"
 #: frontend/src/data/script.js:192
 msgid "⚠️ No row found for idx: {0} in parent field: {1}"
 msgstr "⚠️ 상위 필드: {1}에서 idx: {0}에 해당하는 행을 찾을 수 없습니다"
-

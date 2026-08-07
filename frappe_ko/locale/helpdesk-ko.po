@@ -25,12 +25,12 @@ msgstr "0은 피드백 없음, 1은 좋아요, 2는 싫어요"
 #. Header text in the Helpdesk Workspace
 #: helpdesk/helpdesk/workspace/helpdesk/helpdesk.json
 msgid "<span class=\"h3\" style=\"\"><a href=\"/helpdesk\">Visit Helpdesk</a></span>"
-msgstr "<span class=\\"h3\\" style=\\"\\"><a href=\\"/helpdesk\\">헬프데스크 방문하기</a></span>"
+msgstr "<span class=\"h3\" style=\"\"><a href=\"/helpdesk\">헬프데스크 방문하기</a></span>"
 
 #. Paragraph text in the Helpdesk Workspace
 #: helpdesk/helpdesk/workspace/helpdesk/helpdesk.json
 msgid "<span class=\"h4\">Helpdesk Configuration<br></span>"
-msgstr "<span class=\\"h4\\">헬프데스크 구성<br></span>"
+msgstr "<span class=\"h4\">헬프데스크 구성<br></span>"
 
 #. Option for the 'Source Type' (Select) field in DocType 'HD Support Search
 #. Source'
@@ -2232,4 +2232,3 @@ msgstr "와(과) 유사하지 않음"
 #: helpdesk/helpdesk/doctype/hd_synonym/hd_synonym.json
 msgid "synonym"
 msgstr "동의어"
-
