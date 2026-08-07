@@ -83,19 +83,19 @@ msgstr " 요약"
 
 #: erpnext/stock/doctype/item/item.py:238
 msgid "\"Customer Provided Item\" cannot be Purchase Item also"
-msgstr ""고객 제공 품목"은 구매 품목일 수 없습니다"
+msgstr "\"고객 제공 품목\"은 구매 품목일 수 없습니다"
 
 #: erpnext/stock/doctype/item/item.py:240
 msgid "\"Customer Provided Item\" cannot have Valuation Rate"
-msgstr ""고객 제공 품목"은 평가 단가를 가질 수 없습니다"
+msgstr "\"고객 제공 품목\"은 평가 단가를 가질 수 없습니다"
 
 #: erpnext/stock/doctype/item/item.py:316
 msgid "\"Is Fixed Asset\" cannot be unchecked, as Asset record exists against the item"
-msgstr ""고정 자산 여부"는 체크 해제할 수 없습니다. 해당 품목에 자산 기록이 존재합니다"
+msgstr "\"고정 자산 여부\"는 체크 해제할 수 없습니다. 해당 품목에 자산 기록이 존재합니다"
 
 #: erpnext/public/js/utils/serial_no_batch_selector.js:262
 msgid "\"SN-01::10\" for \"SN-01\" to \"SN-10\""
-msgstr ""SN-01::10"은 "SN-01"부터 "SN-10"까지"
+msgstr "\"SN-01::10\"은 \"SN-01\"부터 \"SN-10\"까지"
 
 #: erpnext/manufacturing/report/work_order_stock_report/work_order_stock_report.py:148
 msgid "# In Stock"
@@ -201,13 +201,13 @@ msgstr "% 반품됨"
 #. Description of the '% Amount Billed' (Percent) field in DocType 'Sales
 #. Order'
 #: erpnext/selling/doctype/sales_order/sales_order.json
-#, python-format
+#, no-python-format
 msgid "% of materials billed against this Sales Order"
 msgstr "% 이 판매 주문에 대해 청구된 자재 비율"
 
 #. Description of the '%  Delivered' (Percent) field in DocType 'Sales Order'
 #: erpnext/selling/doctype/sales_order/sales_order.json
-#, python-format
+#, no-python-format
 msgid "% of materials delivered against this Sales Order"
 msgstr "% 이 판매 주문에 대해 납품된 자재 비율"
 
@@ -24276,7 +24276,7 @@ msgstr "분 단위"
 
 #: erpnext/crm/doctype/appointment_booking_settings/appointment_booking_settings.js:8
 msgid "In row {0} of Appointment Booking Slots: \"To Time\" must be later than \"From Time\"."
-msgstr "예약 슬롯의 {0}행에서: "종료 시간"은 "시작 시간"보다 늦어야 합니다."
+msgstr "예약 슬롯의 {0}행에서: \"종료 시간\"은 \"시작 시간\"보다 늦어야 합니다."
 
 #: erpnext/templates/includes/products_as_grid.html:18
 msgid "In stock"
@@ -28439,7 +28439,7 @@ msgstr "현금화된 휴가?"
 msgid ""
 "Leave blank for home.\n"
 "This is relative to site URL, for example \"about\" will redirect to \"https://yoursitename.com/about\""
-msgstr "홈은 비워 두십시오.\n이는 사이트 URL에 상대적입니다. 예를 들어 "about"은 "https://yoursitename.com/about"로 리디렉션됩니다."
+msgstr "홈은 비워 두십시오.\n이는 사이트 URL에 상대적입니다. 예를 들어 \"about\"은 \"https://yoursitename.com/about\"로 리디렉션됩니다."
 
 #. Description of the 'Release Date' (Date) field in DocType 'Supplier'
 #: erpnext/buying/doctype/supplier/supplier.json
@@ -39530,7 +39530,7 @@ msgid "Progress"
 msgstr "진행 상황"
 
 #: erpnext/projects/doctype/task/task.py:148
-#, python-format
+#, no-python-format
 msgid "Progress % for a task cannot be more than 100."
 msgstr "작업의 진행률 %는 100을 초과할 수 없습니다."
 
@@ -50019,12 +50019,12 @@ msgstr "{0}의 표준 과세 공급"
 #. Description of a DocType
 #: erpnext/accounts/doctype/purchase_taxes_and_charges_template/purchase_taxes_and_charges_template.json
 msgid "Standard tax template that can be applied to all Purchase Transactions. This template can contain a list of tax heads and also other expense heads like \"Shipping\", \"Insurance\", \"Handling\", etc."
-msgstr "모든 구매 거래에 적용할 수 있는 표준 세금 템플릿. 이 템플릿에는 세금 항목 목록과 "배송", "보험", "취급" 등의 기타 비용 항목이 포함될 수 있습니다."
+msgstr "모든 구매 거래에 적용할 수 있는 표준 세금 템플릿. 이 템플릿에는 세금 항목 목록과 \"배송\", \"보험\", \"취급\" 등의 기타 비용 항목이 포함될 수 있습니다."
 
 #. Description of a DocType
 #: erpnext/accounts/doctype/sales_taxes_and_charges_template/sales_taxes_and_charges_template.json
 msgid "Standard tax template that can be applied to all Sales Transactions. This template can contain a list of tax heads and also other expense/income heads like \"Shipping\", \"Insurance\", \"Handling\" etc."
-msgstr "모든 판매 거래에 적용할 수 있는 표준 세금 템플릿. 이 템플릿에는 세금 항목 목록과 "배송", "보험", "취급" 등의 기타 비용/수입 항목이 포함될 수 있습니다."
+msgstr "모든 판매 거래에 적용할 수 있는 표준 세금 템플릿. 이 템플릿에는 세금 항목 목록과 \"배송\", \"보험\", \"취급\" 등의 기타 비용/수입 항목이 포함될 수 있습니다."
 
 #. Label of the standing_name (Link) field in DocType 'Supplier Scorecard
 #. Scoring Standing'
@@ -53187,7 +53187,7 @@ msgstr "세금 범주"
 
 #: erpnext/controllers/buying_controller.py:204
 msgid "Tax Category has been changed to \"Total\" because all the Items are non-stock items"
-msgstr "모든 품목이 비재고 품목이므로 세금 범주가 "총계"로 변경되었습니다"
+msgstr "모든 품목이 비재고 품목이므로 세금 범주가 \"총계\"로 변경되었습니다"
 
 #. Label of the tax_id (Data) field in DocType 'Supplier'
 #. Label of the tax_id (Data) field in DocType 'Customer'
@@ -54615,7 +54615,7 @@ msgstr "일치하는 공통 코드가 기록에 없을 경우 이 값이 사용�
 #. Value'
 #: erpnext/stock/doctype/item_attribute_value/item_attribute_value.json
 msgid "This will be appended to the Item Code of the variant. For example, if your abbreviation is \"SM\", and the item code is \"T-SHIRT\", the item code of the variant will be \"T-SHIRT-SM\""
-msgstr "이것은 변형 항목 코드에 추가됩니다. 예를 들어, 약어가 "SM"이고 항목 코드가 "T-SHIRT"인 경우 변형 항목 코드는 "T-SHIRT-SM"이 됩니다."
+msgstr "이것은 변형 항목 코드에 추가됩니다. 예를 들어, 약어가 \"SM\"이고 항목 코드가 \"T-SHIRT\"인 경우 변형 항목 코드는 \"T-SHIRT-SM\"이 됩니다."
 
 #. Description of the 'Create User Permission' (Check) field in DocType
 #. 'Employee'
@@ -55292,11 +55292,11 @@ msgstr "분해된 품목 포함이 비활성화된 경우 하도급 품목의 �
 
 #: erpnext/controllers/status_updater.py:379
 msgid "To allow over billing, update \"Over Billing Allowance\" in Accounts Settings or the Item."
-msgstr "과청구를 허용하려면 계정 설정 또는 품목에서 "Over Billing Allowance"를 업데이트하세요."
+msgstr "과청구를 허용하려면 계정 설정 또는 품목에서 \"Over Billing Allowance\"를 업데이트하세요."
 
 #: erpnext/controllers/status_updater.py:375
 msgid "To allow over receipt / delivery, update \"Over Receipt/Delivery Allowance\" in Stock Settings or the Item."
-msgstr "과수령/과배송을 허용하려면 재고 설정 또는 품목에서 "Over Receipt/Delivery Allowance"를 업데이트하세요."
+msgstr "과수령/과배송을 허용하려면 재고 설정 또는 품목에서 \"Over Receipt/Delivery Allowance\"를 업데이트하세요."
 
 #. Description of the 'Mandatory Depends On' (Small Text) field in DocType
 #. 'Inventory Dimension'
@@ -61346,7 +61346,7 @@ msgid "{0}% Delivered"
 msgstr "{0}% 배송됨"
 
 #: erpnext/accounts/doctype/payment_term/payment_term.js:15
-#, python-format
+#, no-python-format
 msgid "{0}% of total invoice value will be given as discount."
 msgstr "총 송장 금액의 {0}%가 할인으로 제공됩니다."
 
@@ -61473,4 +61473,3 @@ msgstr "{} {}는 이미 {} {}와 연결되어 있습니다"
 #: erpnext/accounts/doctype/bank_transaction/bank_transaction.py:347
 msgid "{} {} is not affecting bank account {}"
 msgstr "{} {}는 은행 계좌에 영향을 미치지 않습니다"
-

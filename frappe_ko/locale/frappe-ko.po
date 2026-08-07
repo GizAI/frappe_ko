@@ -1601,7 +1601,7 @@ msgstr "댓글을 제출하려면 모든 필드가 필요합니다."
 #. Description of the 'Document States' (Table) field in DocType 'Workflow'
 #: frappe/workflow/doctype/workflow/workflow.json
 msgid "All possible Workflow States and roles of the workflow. Docstatus Options: 0 is \"Saved\", 1 is \"Submitted\" and 2 is \"Cancelled\""
-msgstr "모든 가능한 워크플로 상태 및 워크플로 역할. 문서 상태 옵션: 0은 "저장됨", 1은 "제출됨", 2는 "취소됨"입니다"
+msgstr "모든 가능한 워크플로 상태 및 워크플로 역할. 문서 상태 옵션: 0은 \"저장됨\", 1은 \"제출됨\", 2는 \"취소됨\"입니다"
 
 #: frappe/utils/password_strength.py:183
 msgid "All-uppercase is almost as easy to guess as all-lowercase."
@@ -1941,7 +1941,7 @@ msgstr "항상 BCC 주소"
 #. Label of the add_draft_heading (Check) field in DocType 'Print Settings'
 #: frappe/printing/doctype/print_settings/print_settings.json
 msgid "Always add \"Draft\" Heading for printing draft documents"
-msgstr "초안 문서 인쇄 시 항상 "초안" 제목 추가"
+msgstr "초안 문서 인쇄 시 항상 \"초안\" 제목 추가"
 
 #. Label of the always_use_account_email_id_as_sender (Check) field in DocType
 #. 'Email Account'
@@ -3632,7 +3632,7 @@ msgstr "버튼 그림자"
 #: frappe/core/doctype/doctype/doctype.json
 #: frappe/custom/doctype/customize_form/customize_form.json
 msgid "By \"Naming Series\" field"
-msgstr ""명명 시리즈" 필드별"
+msgstr "\"명명 시리즈\" 필드별"
 
 #: frappe/website/doctype/web_page/web_page.js:111
 #: frappe/website/doctype/web_page/web_page.js:118
@@ -6658,7 +6658,7 @@ msgstr "기본 {0}"
 #. Description of the 'Heading' (Data) field in DocType 'Contact Us Settings'
 #: frappe/website/doctype/contact_us_settings/contact_us_settings.json
 msgid "Default: \"Contact Us\""
-msgstr "기본값: "문의하기""
+msgstr "기본값: \"문의하기\""
 
 #. Name of a DocType
 #: frappe/core/doctype/defaultvalue/defaultvalue.json
@@ -7068,7 +7068,7 @@ msgstr "차이"
 #. Description of the 'States' (Section Break) field in DocType 'Workflow'
 #: frappe/workflow/doctype/workflow/workflow.json
 msgid "Different \"States\" this document can exist in. Like \"Open\", \"Pending Approval\" etc."
-msgstr "이 문서가 존재할 수 있는 다른 "상태"들. 예: "열림", "승인 대기" 등"
+msgstr "이 문서가 존재할 수 있는 다른 \"상태\"들. 예: \"열림\", \"승인 대기\" 등"
 
 #. Label of the prefix_digits (Int) field in DocType 'Document Naming Rule'
 #: frappe/core/doctype/document_naming_rule/document_naming_rule.json
@@ -9024,7 +9024,7 @@ msgstr "이 {0}의 이름을 입력하세요"
 #. Description of the 'User Defaults' (Table) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "Enter default value fields (keys) and values. If you add multiple values for a field, the first one will be picked. These defaults are also used to set \"match\" permission rules. To see list of fields, go to \"Customize Form\"."
-msgstr "기본값 필드(키)와 값을 입력하세요. 필드에 여러 값을 추가하면 첫 번째 값이 선택됩니다. 이 기본값은 "일치" 권한 규칙 설정에도 사용됩니다. 필드 목록을 보려면 "양식 사용자 정의"로 이동하세요."
+msgstr "기본값 필드(키)와 값을 입력하세요. 필드에 여러 값을 추가하면 첫 번째 값이 선택됩니다. 이 기본값은 \"일치\" 권한 규칙 설정에도 사용됩니다. 필드 목록을 보려면 \"양식 사용자 정의\"로 이동하세요."
 
 #: frappe/public/js/frappe/views/file/file_view.js:111
 msgid "Enter folder name"
@@ -9765,15 +9765,15 @@ msgstr "필드"
 
 #: frappe/core/doctype/doctype/doctype.py:417
 msgid "Field \"route\" is mandatory for Web Views"
-msgstr "웹 뷰에 필드 "route"는 필수입니다"
+msgstr "웹 뷰에 필드 \"route\"는 필수입니다"
 
 #: frappe/core/doctype/doctype/doctype.py:1526
 msgid "Field \"title\" is mandatory if \"Website Search Field\" is set."
-msgstr ""웹사이트 검색 필드"가 설정된 경우 필드 "title"은 필수입니다."
+msgstr "\"웹사이트 검색 필드\"가 설정된 경우 필드 \"title\"은 필수입니다."
 
 #: frappe/desk/doctype/bulk_update/bulk_update.js:17
 msgid "Field \"value\" is mandatory. Please specify value to be updated"
-msgstr "필드 "value"는 필수입니다. 업데이트할 값을 지정해 주세요"
+msgstr "필드 \"value\"는 필수입니다. 업데이트할 값을 지정해 주세요"
 
 #. Label of the description (Text) field in DocType 'Custom Field'
 #: frappe/custom/doctype/custom_field/custom_field.json
@@ -9942,7 +9942,7 @@ msgstr "as_list가 활성화된 경우 필드는 리스트 또는 튜플이어�
 #. Description of the 'Search Fields' (Data) field in DocType 'Customize Form'
 #: frappe/custom/doctype/customize_form/customize_form.json
 msgid "Fields separated by comma (,) will be included in the \"Search By\" list of Search dialog box"
-msgstr "쉼표(,)로 구분된 필드는 검색 대화 상자의 "검색 기준" 목록에 포함됩니다"
+msgstr "쉼표(,)로 구분된 필드는 검색 대화 상자의 \"검색 기준\" 목록에 포함됩니다"
 
 #. Label of the fieldtype (Select) field in DocType 'Report Column'
 #. Label of the fieldtype (Select) field in DocType 'Report Filter'
@@ -9978,7 +9978,7 @@ msgstr "파일"
 
 #: frappe/public/js/frappe/file_uploader/FileUploader.vue:478
 msgid "File \"{0}\" was skipped because of invalid file type"
-msgstr "파일 "{0}"는 잘못된 파일 유형으로 건너뛰었습니다"
+msgstr "파일 \"{0}\"는 잘못된 파일 유형으로 건너뛰었습니다"
 
 #: frappe/core/doctype/file/utils.py:128
 msgid "File '{0}' not found"
@@ -12154,7 +12154,7 @@ msgstr "설정하면 이 역할을 가진 사용자만 이 차트에 접근할 �
 #. Description of the 'User Type' (Link) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "If the user has any role checked, then the user becomes a \"System User\". \"System User\" has access to the desktop"
-msgstr "사용자가 역할을 하나라도 선택하면, 사용자는 "시스템 사용자"가 됩니다. "시스템 사용자"는 데스크톱에 접근할 수 있습니다"
+msgstr "사용자가 역할을 하나라도 선택하면, 사용자는 \"시스템 사용자\"가 됩니다. \"시스템 사용자\"는 데스크톱에 접근할 수 있습니다"
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:38
 msgid "If these instructions where not helpful, please add in your suggestions on GitHub Issues."
@@ -12181,15 +12181,15 @@ msgstr "사용자가 소유자인 경우"
 
 #: frappe/core/doctype/data_export/exporter.py:204
 msgid "If you are updating, please select \"Overwrite\" else existing rows will not be deleted."
-msgstr "업데이트하는 경우 "덮어쓰기"를 선택하세요. 그렇지 않으면 기존 행이 삭제되지 않습니다."
+msgstr "업데이트하는 경우 \"덮어쓰기\"를 선택하세요. 그렇지 않으면 기존 행이 삭제되지 않습니다."
 
 #: frappe/core/doctype/data_export/exporter.py:188
 msgid "If you are uploading new records, \"Naming Series\" becomes mandatory, if present."
-msgstr "새 레코드를 업로드하는 경우, "명명 시리즈"가 있으면 필수입니다."
+msgstr "새 레코드를 업로드하는 경우, \"명명 시리즈\"가 있으면 필수입니다."
 
 #: frappe/core/doctype/data_export/exporter.py:186
 msgid "If you are uploading new records, leave the \"name\" (ID) column blank."
-msgstr "새 레코드를 업로드하는 경우 "이름"(ID) 열을 비워 두세요."
+msgstr "새 레코드를 업로드하는 경우 \"이름\"(ID) 열을 비워 두세요."
 
 #: frappe/utils/password.py:214
 msgid "If you have recently restored the site, you may need to copy the site_config.json containing the original encryption key."
@@ -12953,15 +12953,15 @@ msgstr "잘못됨"
 #: frappe/public/js/frappe/form/layout.js:811
 #: frappe/public/js/frappe/views/reports/report_view.js:716
 msgid "Invalid \"depends_on\" expression"
-msgstr "잘못된 "depends_on" 표현식"
+msgstr "잘못된 \"depends_on\" 표현식"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:513
 msgid "Invalid \"depends_on\" expression set in filter {0}"
-msgstr "필터 {0}에 설정된 잘못된 "depends_on" 표현식"
+msgstr "필터 {0}에 설정된 잘못된 \"depends_on\" 표현식"
 
 #: frappe/public/js/frappe/form/save.js:159
 msgid "Invalid \"mandatory_depends_on\" expression"
-msgstr "잘못된 "mandatory_depends_on" 표현식"
+msgstr "잘못된 \"mandatory_depends_on\" 표현식"
 
 #: frappe/utils/nestedset.py:178
 msgid "Invalid Action"
@@ -14933,7 +14933,7 @@ msgstr "주요"
 #. Label of the show_name_in_global_search (Check) field in DocType 'DocType'
 #: frappe/core/doctype/doctype/doctype.json
 msgid "Make \"name\" searchable in Global Search"
-msgstr "글로벌 검색에서 "name"을 검색 가능하게 만들기"
+msgstr "글로벌 검색에서 \"name\"을 검색 가능하게 만들기"
 
 #. Label of the make_attachment_public (Check) field in DocType 'DocField'
 #: frappe/core/doctype/docfield/docfield.json
@@ -16714,7 +16714,7 @@ msgstr "실패한 로그가 없습니다"
 
 #: frappe/public/js/frappe/views/kanban/kanban_view.js:370
 msgid "No fields found that can be used as a Kanban Column. Use the Customize Form to add a Custom Field of type \"Select\"."
-msgstr "칸반 열로 사용할 수 있는 필드를 찾을 수 없습니다. 사용자 정의 양식에서 "선택" 유형의 사용자 정의 필드를 추가하십시오."
+msgstr "칸반 열로 사용할 수 있는 필드를 찾을 수 없습니다. 사용자 정의 양식에서 \"선택\" 유형의 사용자 정의 필드를 추가하십시오."
 
 #: frappe/utils/file_manager.py:143
 msgid "No file attached"
@@ -18016,7 +18016,7 @@ msgstr "PDF 생성이 예상대로 작동하지 않을 수 있습니다."
 
 #: frappe/printing/page/print/print.js:534
 msgid "PDF printing via \"Raw Print\" is not supported."
-msgstr ""Raw Print"를 통한 PDF 인쇄는 지원되지 않습니다."
+msgstr "\"Raw Print\"를 통한 PDF 인쇄는 지원되지 않습니다."
 
 #. Label of the pid (Data) field in DocType 'RQ Worker'
 #: frappe/core/doctype/rq_worker/rq_worker.json
@@ -18799,7 +18799,7 @@ msgstr "대시보드 차트에 설정된 필터 값을 확인해 주세요: {}"
 
 #: frappe/model/base_document.py:951
 msgid "Please check the value of \"Fetch From\" set for field {0}"
-msgstr "필드 {0}에 설정된 "가져오기 위치" 값을 확인해 주세요"
+msgstr "필드 {0}에 설정된 \"가져오기 위치\" 값을 확인해 주세요"
 
 #: frappe/core/doctype/user/user.py:1061
 msgid "Please check your email for verification"
@@ -23853,7 +23853,7 @@ msgstr "사이드바 표시"
 #. Description of the 'Title Prefix' (Data) field in DocType 'Website Settings'
 #: frappe/website/doctype/website_settings/website_settings.json
 msgid "Show title in browser window as \"Prefix - title\""
-msgstr "브라우저 창 제목을 "접두사 - 제목"으로 표시"
+msgstr "브라우저 창 제목을 \"접두사 - 제목\"으로 표시"
 
 #: frappe/public/js/frappe/widgets/onboarding_widget.js:148
 msgid "Show {0} List"
@@ -23935,13 +23935,13 @@ msgstr "이 웹사이트의 가입이 비활성화되었습니다."
 #. Rule'
 #: frappe/automation/doctype/assignment_rule/assignment_rule.json
 msgid "Simple Python Expression, Example: Status in (\"Closed\", \"Cancelled\")"
-msgstr "간단한 파이썬 표현식, 예: Status in ("Closed", "Cancelled")"
+msgstr "간단한 파이썬 표현식, 예: Status in (\"Closed\", \"Cancelled\")"
 
 #. Description of the 'Close Condition' (Code) field in DocType 'Assignment
 #. Rule'
 #: frappe/automation/doctype/assignment_rule/assignment_rule.json
 msgid "Simple Python Expression, Example: Status in (\"Invalid\")"
-msgstr "간단한 파이썬 표현식, 예: Status in ("Invalid")"
+msgstr "간단한 파이썬 표현식, 예: Status in (\"Invalid\")"
 
 #. Description of the 'Assign Condition' (Code) field in DocType 'Assignment
 #. Rule'
@@ -24656,7 +24656,7 @@ msgstr "스타일시트"
 #. Description of the 'Fraction' (Data) field in DocType 'Currency'
 #: frappe/geo/doctype/currency/currency.json
 msgid "Sub-currency. For e.g. \"Cent\""
-msgstr "하위 통화. 예: "센트""
+msgstr "하위 통화. 예: \"센트\""
 
 #. Description of the 'Subdomain' (Small Text) field in DocType 'Website
 #. Settings'
@@ -27575,7 +27575,7 @@ msgstr "Google Drive에 업로드됨"
 #. Description of the 'Value to Validate' (Data) field in DocType 'Onboarding
 #. Step'
 #: frappe/desk/doctype/onboarding_step/onboarding_step.json
-#, python-format
+#, no-python-format
 msgid "Use % for any non empty value."
 msgstr "비어 있지 않은 값에 대해 % 사용"
 
@@ -30020,7 +30020,7 @@ msgstr "문서 유형..., 예: 고객"
 #. Account'
 #: frappe/email/doctype/email_account/email_account.json
 msgid "e.g. \"Support\", \"Sales\", \"Jerry Yang\""
-msgstr "예: "지원", "영업", "제리 양""
+msgstr "예: \"지원\", \"영업\", \"제리 양\""
 
 #: frappe/public/js/frappe/ui/toolbar/awesome_bar.js:183
 msgid "e.g. (55 + 434) / 4 or =Math.sin(Math.PI/2)..."
@@ -31470,4 +31470,3 @@ msgstr "{}를 PATH에서 찾을 수 없습니다! 백업을 위해 필요합니�
 #: frappe/public/js/frappe/file_uploader/WebLink.vue:4
 msgid "← Back to upload files"
 msgstr "← 파일 업로드로 돌아가기"
-

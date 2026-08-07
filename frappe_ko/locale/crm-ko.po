@@ -123,7 +123,7 @@ msgstr "<p>친애하는 {{ lead_name }}님,</p>\\n\\n<p>{{ grand_total }} 결제
 #. Header text in the Frappe CRM Workspace
 #: crm/fcrm/workspace/frappe_crm/frappe_crm.json
 msgid "<span class=\"h5\"><b>PORTAL</b></span>"
-msgstr "<span class=\\"h5\\"><b>포털</b></span>"
+msgstr "<span class=\"h5\"><b>포털</b></span>"
 
 #: frontend/src/components/CommunicationArea.vue:85
 msgid "@John, can you please check this?"
@@ -1963,15 +1963,15 @@ msgstr "필드 순서"
 
 #: frontend/src/components/FilesUploader/FilesUploaderArea.vue:333
 msgid "File \"{0}\" was skipped because of invalid file type"
-msgstr "파일 \\"{0}\\"은(는) 잘못된 파일 형식으로 인해 건너뛰어졌습니다"
+msgstr "파일 \"{0}\"은(는) 잘못된 파일 형식으로 인해 건너뛰어졌습니다"
 
 #: frontend/src/components/FilesUploader/FilesUploaderArea.vue:354
 msgid "File \"{0}\" was skipped because only {1} uploads are allowed"
-msgstr "파일 \\"{0}\\"은(는) {1}개 업로드만 허용되어 건너뛰어졌습니다"
+msgstr "파일 \"{0}\"은(는) {1}개 업로드만 허용되어 건너뛰어졌습니다"
 
 #: frontend/src/components/FilesUploader/FilesUploaderArea.vue:359
 msgid "File \"{0}\" was skipped because only {1} uploads are allowed for DocType \"{2}\""
-msgstr "파일 \\"{0}\\"은(는) 문서 유형 \\"{2}\\"에 대해 {1}개 업로드만 허용되어 건너뛰어졌습니다"
+msgstr "파일 \"{0}\"은(는) 문서 유형 \"{2}\"에 대해 {1}개 업로드만 허용되어 건너뛰어졌습니다"
 
 #: frontend/src/components/Filter.vue:6
 msgid "Filter"
@@ -2419,7 +2419,7 @@ msgstr "표준인가"
 #. Settings'
 #: crm/fcrm/doctype/fcrm_settings/fcrm_settings.json
 msgid "It will make deal's \"Expected Closure Date\" mandatory to get accurate forecasting insights"
-msgstr "정확한 예측 인사이트를 위해 거래의 \\"예상 종료일\\"을 필수로 만듭니다"
+msgstr "정확한 예측 인사이트를 위해 거래의 \"예상 종료일\"을 필수로 만듭니다"
 
 #. Label of the json (JSON) field in DocType 'CRM Global Settings'
 #: crm/fcrm/doctype/crm_global_settings/crm_global_settings.json
@@ -5104,4 +5104,3 @@ msgstr "⚠️ 상위 필드: {0}에 대한 데이터가 없습니다"
 #: frontend/src/data/script.js:192
 msgid "⚠️ No row found for idx: {0} in parent field: {1}"
 msgstr "⚠️ 상위 필드: {1}에서 idx: {0}에 해당하는 행을 찾을 수 없습니다"
-

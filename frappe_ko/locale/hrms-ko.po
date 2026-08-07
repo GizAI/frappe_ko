@@ -247,7 +247,7 @@ msgid ""
 "<pre><code>Condition: employment_type==\"Intern\"</code></pre>\n"
 "<pre><code>Amount: 1000</code></pre></li>\n"
 "</ol>"
-msgstr "<h3>도움말</h3>\n\n<p>참고:</p>\n\n<ol>\n<li>직원의 기본 급여를 사용하려면 <code>base</code> 필드를 사용하세요</li>\n<li>조건과 수식에서 급여 구성요소 약어를 사용하세요. <code>BS = 기본급</code></li>\n<li>조건과 수식에서 직원 세부사항 필드명을 사용하세요. <code>고용 형태 = employment_type</code><code>지점 = branch</code></li>\n<li>조건과 수식에서 급여 명세서 필드명을 사용하세요. <code>지급 일수 = payment_days</code><code>무급 휴가 = leave_without_pay</code></li>\n<li>조건에 따라 직접 금액도 입력할 수 있습니다. 예제 3을 참조하세요</li></ol>\n\n<h4>예제</h4>\n<ol>\n<li><code>base</code>를 기준으로 기본급 계산\n<pre><code>조건: base &lt; 10000</code></pre>\n<pre><code>수식: base * .2</code></pre></li>\n<li>기본급<code>BS</code>를 기준으로 HRA 계산\n<pre><code>조건: BS &gt; 2000</code></pre>\n<pre><code>수식: BS * .1</code></pre></li>\n<li>고용 형태<code>employment_type</code>를 기준으로 TDS 계산\n<pre><code>조건: employment_type==\\"Intern\\"</code></pre>\n<pre><code>금액: 1000</code></pre></li>\n</ol>"
+msgstr "<h3>도움말</h3>\n\n<p>참고:</p>\n\n<ol>\n<li>직원의 기본 급여를 사용하려면 <code>base</code> 필드를 사용하세요</li>\n<li>조건과 수식에서 급여 구성요소 약어를 사용하세요. <code>BS = 기본급</code></li>\n<li>조건과 수식에서 직원 세부사항 필드명을 사용하세요. <code>고용 형태 = employment_type</code><code>지점 = branch</code></li>\n<li>조건과 수식에서 급여 명세서 필드명을 사용하세요. <code>지급 일수 = payment_days</code><code>무급 휴가 = leave_without_pay</code></li>\n<li>조건에 따라 직접 금액도 입력할 수 있습니다. 예제 3을 참조하세요</li></ol>\n\n<h4>예제</h4>\n<ol>\n<li><code>base</code>를 기준으로 기본급 계산\n<pre><code>조건: base &lt; 10000</code></pre>\n<pre><code>수식: base * .2</code></pre></li>\n<li>기본급<code>BS</code>를 기준으로 HRA 계산\n<pre><code>조건: BS &gt; 2000</code></pre>\n<pre><code>수식: BS * .1</code></pre></li>\n<li>고용 형태<code>employment_type</code>를 기준으로 TDS 계산\n<pre><code>조건: employment_type==\"Intern\"</code></pre>\n<pre><code>금액: 1000</code></pre></li>\n</ol>"
 
 #. Content of the 'html_6' (HTML) field in DocType 'Taxable Salary Slab'
 #: hrms/payroll/doctype/taxable_salary_slab/taxable_salary_slab.json
@@ -259,7 +259,7 @@ msgid ""
 "<code>Condition: gender==\"Male\"</code></li><br>\n"
 "<li>Applying tax by Salary Component<br>\n"
 "<code>Condition: base &gt; 10000</code></li></ol>"
-msgstr "<h4>조건 예제</h4>\n<ol>\n<li>1937-12-31과 1958-01-01 사이에 태어난 직원에게 세금 적용 (60세에서 80세 직원)<br>\n<code>조건: date_of_birth&gt;date(1937, 12, 31) and date_of_birth&lt;date(1958, 01, 01)</code></li><br><li>직원 성별에 따른 세금 적용<br>\n<code>조건: gender==\\"Male\\"</code></li><br>\n<li>급여 구성요소에 따른 세금 적용<br>\n<code>조건: base &gt; 10000</code></li></ol>"
+msgstr "<h4>조건 예제</h4>\n<ol>\n<li>1937-12-31과 1958-01-01 사이에 태어난 직원에게 세금 적용 (60세에서 80세 직원)<br>\n<code>조건: date_of_birth&gt;date(1937, 12, 31) and date_of_birth&lt;date(1958, 01, 01)</code></li><br><li>직원 성별에 따른 세금 적용<br>\n<code>조건: gender==\"Male\"</code></li><br>\n<li>급여 구성요소에 따른 세금 적용<br>\n<code>조건: base &gt; 10000</code></li></ol>"
 
 #. Content of the 'Half Day Marked Employee Header' (HTML) field in DocType
 #. 'Employee Attendance Tool'
@@ -290,22 +290,22 @@ msgstr "<hr>"
 #: hrms/hr/workspace/recruitment/recruitment.json
 #: hrms/payroll/workspace/tax_&_benefits/tax_&_benefits.json
 msgid "<span class=\"h4\"><b>Masters &amp; Reports</b></span>"
-msgstr "<span class=\\"h4\\"><b>마스터 및 보고서</b></span>"
+msgstr "<span class=\"h4\"><b>마스터 및 보고서</b></span>"
 
 #. Header text in the Performance Workspace
 #: hrms/hr/workspace/performance/performance.json
 msgid "<span class=\"h4\"><b>Masters &amp; Transactions</b></span>"
-msgstr "<span class=\\"h4\\"><b>마스터 및 거래</b></span>"
+msgstr "<span class=\"h4\"><b>마스터 및 거래</b></span>"
 
 #. Header text in the Overview Workspace
 #: hrms/hr/workspace/overview/overview.json
 msgid "<span class=\"h4\"><b>Reports &amp; Masters</b></span>"
-msgstr "<span class=\\"h4\\"><b>보고서 및 마스터</b></span>"
+msgstr "<span class=\"h4\"><b>보고서 및 마스터</b></span>"
 
 #. Header text in the Salary Payout Workspace
 #: hrms/payroll/workspace/salary_payout/salary_payout.json
 msgid "<span class=\"h4\"><b>Transactions &amp; Reports</b></span>"
-msgstr "<span class=\\"h4\\"><b>거래 및 보고서</b></span>"
+msgstr "<span class=\"h4\"><b>거래 및 보고서</b></span>"
 
 #. Header text in the Employee Lifecycle Workspace
 #. Header text in the Expense Claims Workspace
@@ -326,12 +326,12 @@ msgstr "<span class=\\"h4\\"><b>거래 및 보고서</b></span>"
 #: hrms/payroll/workspace/salary_payout/salary_payout.json
 #: hrms/payroll/workspace/tax_&_benefits/tax_&_benefits.json
 msgid "<span class=\"h4\"><b>Your Shortcuts</b></span>"
-msgstr "<span class=\\"h4\\"><b>단축키</b></span>"
+msgstr "<span class=\"h4\"><b>단축키</b></span>"
 
 #. Header text in the Shift & Attendance Workspace
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
 msgid "<span style=\"font-size: 18px;\"><b>Masters &amp; Reports</b></span>"
-msgstr "<span style=\\"font-size: 18px;\\"><b>마스터 및 보고서</b></span>"
+msgstr "<span style=\"font-size: 18px;\"><b>마스터 및 보고서</b></span>"
 
 #: hrms/public/js/utils/index.js:166
 msgid "<table class='table table-bordered'><tr><th>{0}</th><th>{1}</th></tr>"
@@ -5866,7 +5866,7 @@ msgstr "직원용"
 #. Description of the 'Fraction of Daily Salary per Leave' (Float) field in
 #. DocType 'Leave Type'
 #: hrms/hr/doctype/leave_type/leave_type.json
-#, python-format
+#, no-python-format
 msgid "For a day of leave taken, if you still pay (say) 50% of the daily salary, then enter 0.50 in this field."
 msgstr "하루 휴가를 사용했을 때 일일 급여의 (예: 50%)를 지급한다면, 이 필드에 0.50을 입력하세요."
 
@@ -11915,7 +11915,7 @@ msgstr "서비스 항목"
 #. 'Gratuity Rule'
 #: hrms/payroll/doctype/gratuity_rule/gratuity_rule.json
 msgid "Set \"From(Year)\" and \"To(Year)\" to 0 for no upper and lower limit."
-msgstr "상한 및 하한이 없도록 \\"From(Year)\\" 및 \\"To(Year)\\"를 0으로 설정하세요."
+msgstr "상한 및 하한이 없도록 \"From(Year)\" 및 \"To(Year)\"를 0으로 설정하세요."
 
 #. Label of the set_assignment_details_section (Section Break) field in DocType
 #. 'Bulk Salary Structure Assignment'
@@ -14825,4 +14825,3 @@ msgstr "{}는(은) 유효하지 않은 출석 상태입니다."
 #: hrms/hr/doctype/job_requisition/job_requisition.js:22
 msgid "{} {} open for this position."
 msgstr "{} {} 이 직위에 대해 열려 있습니다."
-
